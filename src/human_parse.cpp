@@ -223,6 +223,11 @@ human_parse::human_parse(){
   suffixes.insert("dmd");
   suffixes.insert("cme");
   suffixes.insert("esq");
+  // Add additional medical/science suffixes
+  suffixes.insert("scd");
+  suffixes.insert("frs");
+  suffixes.insert("fmedsci");
+  suffixes.insert("cbe");
   
   // Compounds
   compounds.insert("vere");
